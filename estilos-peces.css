@@ -1,0 +1,55 @@
+body {
+	margin: 8px;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+
+#nav {
+	width: 700px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+ul{
+	margin: 0px;
+}
+
+#nav li, #pie li {
+	list-style: none;
+	float: left;
+	width: auto;
+	margin: 12px 15px 0 0;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	color: #777;
+	padding: 5px;
+}
+
+a:hover {
+	background-color: #eee;
+}
+
+#logo {
+	float: left;
+	margin-right: 50px;
+}
+
+/* CABECERA */
+
+#cabecera{
+	width: 100%;
+	height: 400px;
+	background-image: url('img-portada.jpg');
+	background-size: 100% 400px;
+}
+
+/* PIE */
+
+#pie {
+	width: 100%;
+	height: 50px;
+	background-color: #ddd;
+}
