@@ -46,6 +46,58 @@ a:hover {
 	background-size: 100% 400px;
 }
 
+/* CUERPO */
+
+#cuerpo {
+	width: 955px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.articulo {
+	width: 200px;
+	height: 450px;
+	float: left;
+	margin: 10px;
+	padding: 8px;
+	overflow: hidden;
+}
+
+.articulo:hover {
+	background-color: #eee;
+}
+
+.redondo {
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	box-shadow: 5px 5px 2px #999;
+}
+
+h3 {
+	text-align: center;
+}
+
+p {
+	color: #999;
+	text-align: justify;
+}
+
+.btn {
+	margin: 0 auto;
+	width: 50px;
+	height: 20px;
+	border-radius: 3px;
+	background-color: #0848BA;
+	padding: 2px 10px 2px 10px;
+	color: white;
+}
+
+.btn:hover {
+	background-color: #187CD3;
+}
+
 /* PIE */
 
 #pie {
